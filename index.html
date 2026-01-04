@@ -21,6 +21,7 @@ body { background:#f5f5f5; color:#333; min-height:100vh; overflow-x:hidden;
   width:100%;
   background-position:center;
   background-attachment: fixed;
+  background-repeat:no-repeat;
 }
 /* ===== Header ===== */
 header {
@@ -40,6 +41,7 @@ nav {
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
+  background-repeat:no-repeat;
   text-align:center;
   height:44px;
   padding-top:3px;
@@ -99,11 +101,19 @@ nav a:hover { color:yellow; }
 
 /* ===== Categories ===== */
 #categories { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; width:90%; margin:20px auto; }
-.category { flex:1 1 300px; max-width:300px; min-height:400px; background:#fff; border-radius:15px; overflow:hidden; box-shadow:0 0 15px rgba(0,0,0,0.3); display:flex; flex-direction:column; transition:0.3s; }
+.category { flex:1 1 300px; max-width:300px; min-height:400px; background:#fff; border-radius:15px; overflow:hidden; box-shadow:0 0 15px rgba(0,0,0,0.3); display:flex; flex-direction:column; transition:0.3s; background-color:black;
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  background-repeat:no-repeat;color:white;}
 .category:hover { transform:translateY(-10px); box-shadow:0 0 25px rgba(0,0,0,0.5); }
 .category img { width:100%; height:200px; object-fit:cover; }
 .category h3 { padding:10px; font-family:Georgia; font-size:1.2em; }
-.category p { padding:0 10px; flex:1; font-size:0.9em; line-height:1.5em; }
+.category p { padding:0 10px; flex:1; font-size:0.9em; line-height:1.5em; background-image:url("J3.jpeg");
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  background-repeat:no-repeat;}
 .category a { text-align:center; padding:10px; margin:10px; text-decoration:none; background:green; color:white; border-radius:10px; font-weight:bold; transition:0.3s; }
 .category a:hover { background:yellow; color:black; }
 
@@ -118,7 +128,7 @@ html { scroll-behavior:smooth; }
 </style>
 </head>
 <body>
-<header>ONEBOX Hub (GitHub Edition)</header>
+<header>ONEBOXHUB50</header>
 
 <nav>
   <a href="#">Home</a>
@@ -126,7 +136,7 @@ html { scroll-behavior:smooth; }
 </nav>
 
 <div class="v1">
-  <a href="https://github.com/ShahidFarooq527/ONEBOXHUB50/releases/download/v1.0/ONEBOXHUB50.APP.apk" download>⬇️ Download ONEBOX APK (GitHub)</a>
+  <a href="https://github.com/ShahidFarooq527/ONEBOXHUB50/releases/download/v1.0/ONEBOXHUB50.APP.apk" download>⬇️ Download ONEBOX APK</a>
 </div>
 
 <div class="search-container">
